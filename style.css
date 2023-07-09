@@ -57,6 +57,22 @@ footer li{
     margin: 30px;
     flex-wrap: wrap;
 }
+/*general*/
+section{
+    background-color: #00ADB5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    font-size: large;
+    color: black;
+}
+::after,
+::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
 /*index*/
 .imagen_inicio{
     height: 900px;
@@ -80,22 +96,6 @@ footer li{
 .p__index{
     font-size: 20px;
 }
-/*general*/
-section{
-    background-color: #00ADB5;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    font-size: large;
-    color: black;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 62.5%;
-}
-
 /*estadistticas*/
 table img{
     height: 100px;
@@ -121,13 +121,37 @@ table td{
     display: grid;
 }
 
-
+/*Sugerencias*/
 .nombre:focus{
     box-shadow: 0 0 15px 10px #393E46;
 }
-
-
-
 #textarea{
     resize: none; /*fijar tamaño textarea*/
+}
+/*Actualidad*/
+.section_actualidad{
+    display: flex;
+    justify-content: center;
+    padding: 17rem ;
+    flex-direction: column;
+}
+.h1_actualidad{
+    display: inline;
+    font-size: 4rem;
+}
+.texto_actualidad{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+}
+.video_actualidad{
+    display: flex;
+    justify-content: space-around;
+}
+#video_presentacion{
+    height: 650px;
+    width: 750PX;
+}
+.p_actualidad{
+    font-size: 20px;
 }

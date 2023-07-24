@@ -1,0 +1,23 @@
+.imagen__index {
+    height: 100rem;
+    max-width: 100% ;    
+    padding: 3rem;  
+}
+.section__index{
+    display: flex;
+    justify-content: center ;
+    align-items:normal;
+    flex-wrap: wrap;
+    h1 {
+        display: inline;
+        font-size: 5rem; 
+    }
+    p {
+        font-size: 20px;
+    }
+}
+.texto__index{
+    display: flex;
+    flex-direction: column;
+    width: 400px;    
+}

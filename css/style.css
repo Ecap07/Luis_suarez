@@ -107,3 +107,26 @@ section {
   display: flex;
   flex-direction: column;
   width: 500px; }
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  font-size: x-large; }
+  table img {
+    height: 100px; }
+
+.seccion__formulario {
+  display: flex;
+  height: 90rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; }
+  .seccion__formulario p {
+    width: 800px; }

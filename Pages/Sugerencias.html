@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Sugerencias</title>
+    <title>Luis Suarez- Sugerencias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
-        <h2><a href="../index.html">Luis Suarez</a></h2> <!--cabeza de pagina, para volver al inico -->
-        <nav>
-            <ul class="header__list"><!--Menu de navegación-->
-                <li><a href="./Estadisticas.html">Estadisticas</a></li>
-                <li><a href="./Actualidad.html">Actualidad</a></li>
-                <li><a href="./Galeria.html">Galeria</a></li>
-                <li><a href="./Sugerencias.html">Sugerencias</a></li>
-            </ul>
-        </nav>    
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-bran" href="../index.html">Luis Suarez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-lin" href="./Estadisticas.html">Estadisticas</a>
+                        <a class="nav-lin" href="./Actualidad.html">Actualidad</a>
+                        <a class="nav-lin" href="./Galeria.html">Galeria</a>
+                        <a class="nav-lin" href="./Sugerencias.html">Sugerencias</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
+    <!--Estilo de la pagina-->
     <section class="seccion__formulario">
-        <section >
-            <h1>Sugerencias</h1>
-            <p>Nos interesa saber tu opinion de este jugador, como puntuarias su carrera y a que otro jugador te gustaria ver en la web en un futuro</p>
+        <section class="texto__sugerencias">
+            <h1 class="h1__sugerencias">Sugerencias</h1>
+            <p>Nos interesa saber tu opinion de este jugador, como puntuarias su carrera y a que otro jugador te
+                gustaria ver en la web en un futuro</p>
         </section>
-        <form> 
-            <label for="nombre" ></label> <!--Formularios-->
-            <input type="text" required id="nombre" placeholder="nombre" class="nombre">
-            <br>
-            <label for="email"></label>
-            <input type="email" readonly id="email" placeholder="email">
-            <br>
-            <label for="range"></label>
-            <input type="range" id="range">
-            <br>
-            <label for="textarea"></label>
-            <textarea name="text" id="textarea" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
-            <input type="submit">
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div>
+                <label for="customRange2" class="form-label">Comocalificarias su carrera</label>
+                <input type="range" class="form-range" min="0" max="5" id="customRange2">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Que jugador/es quisieras que tengan su web en un futuro.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button type="submit" class="btn btn-primary">Subir</button>
+            </div>
         </form>
     </section>
-    <footer> <!--pie de pagina-->
+    <!--pie de pagina-->
+    <footer>
         <P>Copyright Ezequiel Barrios</P>
         <ul class="redes">
-            <li><a href="https://twitter.com/LuisSuarez9?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../Img/twitter.png" alt="Logo twitter"></a></li>
-            <li><a href="https://www.instagram.com/luissuarez9/"><img src="../Img/logoinsta.png" alt="logo instagram"></a></li>            
-            <li><a href="https://www.facebook.com/LuisSuarez9/?locale=es_LA"><img src="../Img/facebook.png" alt="Logo facebook"></a></li>
+            <li><a href="https://twitter.com/LuisSuarez9?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                        src="../Img/twitter.png" alt="Logo twitter"></a></li>
+            <li><a href="https://www.instagram.com/luissuarez9/"><img src="../Img/logoinsta.png"
+                        alt="logo instagram"></a></li>
+            <li><a href="https://www.facebook.com/LuisSuarez9/?locale=es_LA"><img src="../Img/facebook.png"
+                        alt="Logo facebook"></a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

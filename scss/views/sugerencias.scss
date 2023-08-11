@@ -1,16 +1,13 @@
+
 .seccion__formulario{
     display: flex;
     height: 90rem;
-    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
     p{
-        width: 800px;
+        width: 350px;
     }
 }
-
-
-
 
 

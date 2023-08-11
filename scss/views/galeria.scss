@@ -1,5 +1,8 @@
 .videos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;    
+    justify-content: space-around;   
+}
+iframe{
+    margin-top: 1rem;
 }

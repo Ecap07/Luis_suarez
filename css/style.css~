@@ -58,6 +58,7 @@ footer {
 }
 footer li {
   display: inline-block;
+  margin: 30px;
   flex-wrap: wrap;
 }
 
@@ -81,10 +82,9 @@ section {
   align-items: normal;
   flex-wrap: wrap;
 }
-.section__index h1 {
+.section__index h2 {
   display: inline;
   font-size: 5rem;
-  font-weight: 600;
 }
 .section__index p {
   font-size: 20px;
@@ -132,10 +132,6 @@ section {
   justify-content: space-around;
 }
 
-iframe {
-  margin-top: 1rem;
-}
-
 table {
   width: 100%;
   table-layout: fixed;
@@ -146,15 +142,9 @@ table img {
   height: 100px;
 }
 
-.seccion__formulario {
+.texto__sugerencias {
   display: flex;
-  height: 90rem;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-evenly;
-}
-.seccion__formulario p {
-  width: 350px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */

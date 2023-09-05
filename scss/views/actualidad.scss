@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    align-content: space-around;
     h2{
         display: inline;
         font-size: 4rem;
@@ -13,9 +14,8 @@
         display: flex;
         width: 600px;
         height: 355px;
-        width: 600px;
-        height: 355px;
-        max-width: 100%;
+        max-width: 80%;
+        align-items: center;
     }
     p{
         font-size: 20px;
